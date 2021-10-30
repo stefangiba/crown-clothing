@@ -45,20 +45,20 @@ export default class SignIn extends Component {
 
         <form onSubmit={this.handleSubmit}>
           <FormInput
-          name="email"
-          type="email"
-          value={this.state.email}
-          handleChange={this.handleChange}
-          label="Email"
-          required
+            name="email"
+            type="email"
+            value={this.state.email}
+            handleChange={this.handleChange}
+            label="Email"
+            required
           />
           <FormInput
-          name="password"
-          type="password"
-          value={this.state.password}
-          onChange={this.handleChange}
-          label="Password"
-          required
+            name="password"
+            type="password"
+            value={this.state.password}
+            onChange={this.handleChange}
+            label="Password"
+            required
           />
           <div className="buttons">
             <CustomButton type="submit"> Sign In </CustomButton>
